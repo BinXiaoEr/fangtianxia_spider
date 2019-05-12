@@ -73,8 +73,8 @@ SCHEDULER_PERSIST = True
 ITEM_PIPELINES = {
     'scrapy_redis.pipelines.RedisPipeline': 400,
 }
-REDIS_HOST='192.168.31.133'
-REDIS_PORT='6379'
+REDIS_HOST='*****'
+REDIS_PORT='***'
 LOG_LEVEL = 'DEBUG'
 # Enable or disable extensions
 # See https://doc.scrapy.org/en/latest/topics/extensions.html
